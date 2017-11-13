@@ -1,0 +1,8 @@
+DNA_absorbance = [1.76, 1.87, 1.88, 1.85, 1.86, 2.01, 2.05, 1.79, 1.84, 1.78, 1.58, 1.91, 1.88, 2.00, 1.93]
+for x in DNA_absorbance:
+    if x > 1.9 :
+        print("too much protein contaminant")
+    elif 1.85 <= x <= 1.9:
+        print("Pure DNA")
+    else :
+        print("too little DNA")
